@@ -1,0 +1,270 @@
+/* font */
+
+/* 1 */
+/* latin-ext */
+@font-face {
+    font-family: 'Concert One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Concert One'), local('ConcertOne-Regular'), url('../vendors/fonts/Concert_One/ConcertOne-Regular.ttf') format('ttf');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+/* latin */
+@font-face {
+    font-family: 'Concert One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Concert One'), local('ConcertOne-Regular'), url('../vendors/fonts/Concert_One/ConcertOne-Regular.ttf') format('ttf');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 2 */
+/* cyrillic */
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('../vendors/fonts/Pacifico/Pacifico-Regular.ttf') format('ttf');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('../vendors/fonts/Pacifico/Pacifico-Regular.ttf') format('ttf');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('../vendors/fonts/Pacifico/Pacifico-Regular.ttf') format('ttf');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('../vendors/fonts/Pacifico/Pacifico-Regular.ttf') format('ttf');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* button */
+.btn-custom
+{
+    background-color: transparent;
+    color: #fdf584;
+    border-color: #fdf584;
+}
+.btn-custom:hover
+{
+    color: #212529;
+    background-color: #fdf584;
+    border-color: #212529;
+}
+
+/* p */
+p
+{
+    color: #fdf584;
+    font-family: 'Pacifico', cursive;
+}
+
+/* hr */
+hr
+{
+    background-color: #fdf584;
+}
+/* text */
+.text-white
+{
+    color: #ffffff!important;
+}
+.text-red
+{
+    color: #f00!important;
+}
+.text-green
+{
+    color: #00b050!important;
+}
+
+/* bootstrap card */
+.card
+{
+    border-color: #fdf584;
+    background-color: #212529;
+    margin: 10px 0;
+    transition-duration: 1s;
+}
+.card:hover
+{
+    transform: scale(1.1);
+}
+.card-hoveroff:hover
+{
+    transform: none!important;
+}
+
+/* bootstrap blockquote */
+.blockquote>footer
+{
+    color: #ffffff;
+}
+
+/* bootstrap breadcrumb */
+.breadcrumb
+{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+/* btn-link */
+.btn-link
+{
+    color: #ffffff;
+}
+
+/* iframe */
+iframe
+{
+    width: 100%;
+}
+.iframe-video
+{
+    height: 240px;
+}
+
+/* content */
+/* homepage */
+#cookie-section
+{
+    padding: 20px 0;
+}
+#cookie-section p
+{
+    margin: 0;
+}
+body
+{
+    background-color: #212529;
+}
+.navbar-dark .navbar-brand,h1,h2,h3,h4,h5,h6
+{
+    color: #fdf584;
+    font-family: 'Concert One', cursive;
+}
+.welcome
+{
+    background-image: url('../../images/welcome.jpg');
+    margin-bottom: 20px;
+}
+.welcome-header
+{
+    padding:150px 0;
+    text-align: center;
+}
+.main
+{
+    margin: 10px 0;
+}
+.content
+{
+    margin: 100px 0;
+    border: 1px solid #fdf584;
+    padding: 10px;
+    box-shadow: 0px 35px 70px #fff89c;
+}
+.content-heading
+{
+    border-bottom: 1px solid #fdf584;
+}
+.content-details
+{
+    margin: 15px 0;
+}
+
+/* footer */
+.footer
+{
+    border-top: 5px solid #fdf584;
+    background-color: #212529;
+    padding: 30px 40px 10px;
+}
+.socialaccounts>a
+{
+    font-size: 30px;
+    color: #fdf584;
+    margin: 0 2px;
+}
+.socialaccounts>a:hover
+{
+    color: #365899;
+}
+.developer
+{
+    padding: 2px 5px;
+    background-color: #fdf584;
+    color: #212529;
+}
+
+/* blog */
+.blog
+{
+    background-image: url('../../images/blog.jpg')!important;
+}
+.badge-lg
+{
+    padding: 5px 15px;
+}
+
+/* register */
+.register
+{
+    background-image: url('../../images/register.jpg')!important;
+}
+.form-custom-color label
+{
+    color: #fdf584;
+}
+.form-custom-color .text-muted
+{
+    color: #fff!important;
+}
+
+/* about */
+.about
+{
+    background-image: url('../../images/about.jpg')!important;
+}
+
+/* contact */
+.contact
+{
+    background-image: url('../../images/contact.jpg')!important;
+}
+
+/* where */
+.where
+{
+    background-image: url('../../images/where.jpg')!important;
+}
+
+/* forum */
+.card-header
+{
+    overflow-x: overlay;
+}
+
+/* media query */
+@media(max-width:575px)
+{
+    .footer .row .col-sm-4
+    {
+        text-align:center!important;
+    }
+}
